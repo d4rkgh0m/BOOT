@@ -24,13 +24,14 @@
 Если вы хотите перемонтировать ее в режим Read-Write, можно воспользоваться командой:
 [root@localhost ~]# mount -o remount,rw /
 ```
-![Screenshot from 2024-04-11 16-32-44](https://github.com/d4rkgh0m/BOOT/assets/120186195/246d074b-b97c-4eb9-908d-ce62592dfc96)
+![Screenshot from 2024-04-11 16-33-13](https://github.com/d4rkgh0m/BOOT/assets/120186195/5f837bf8-ca96-4ae4-a808-d6c36faebd3b)
+
 ```ruby
 - После чего можно убедиться, записав данные в любой файл или прочитав вывод
 команды:
 [root@localhost ~]# mount | grep root
 ```
-![Screenshot from 2024-04-11 16-33-13](https://github.com/d4rkgh0m/BOOT/assets/120186195/4e8673c4-87f7-4158-8415-523a6bead137)
+![Screenshot from 2024-04-11 16-38-08](https://github.com/d4rkgh0m/BOOT/assets/120186195/c4b6d02a-2277-4cdf-8c9b-1990ddac5feb)
 
 ```ruby
 Способ 2. rd.break
@@ -46,11 +47,10 @@
 - После чего можно перезагружаться и заходить в систему с новым паролем.
 Полезно, когда вы потеряли или вообще не имели пароль администратор.
 ```
-![Screenshot from 2024-04-11 16-32-44](https://github.com/d4rkgh0m/BOOT/assets/120186195/71d168a7-df44-468b-8390-60156a53e14a)
-![Screenshot from 2024-04-11 16-38-08](https://github.com/d4rkgh0m/BOOT/assets/120186195/e54dd78c-016a-441a-b312-9eb0dc07ca40)
-![Screenshot from 2024-04-11 16-36-03](https://github.com/d4rkgh0m/BOOT/assets/120186195/dec1a15a-6a41-435b-ba5a-5dc3d93733e6)
-![Screenshot from 2024-04-11 16-32-44](https://github.com/d4rkgh0m/BOOT/assets/120186195/bfa8a7e6-ed10-4d8b-93d5-d788f851b89f)
-![Screenshot from 2024-04-11 16-33-13](https://github.com/d4rkgh0m/BOOT/assets/120186195/46f4010d-7ef5-4810-8f00-a4249413af85)
+![Screenshot from 2024-04-11 16-44-58](https://github.com/d4rkgh0m/BOOT/assets/120186195/07c174a8-55a1-459f-b87d-539f2b08afd7)
+![Screenshot from 2024-04-11 16-45-23](https://github.com/d4rkgh0m/BOOT/assets/120186195/aa1517c3-1472-4757-9286-69d2e43816d8)
+![Screenshot from 2024-04-11 16-46-55](https://github.com/d4rkgh0m/BOOT/assets/120186195/f346104c-b1f0-4b72-95b0-ab1aea1d9ac4)
+![Screenshot from 2024-04-11 16-50-30](https://github.com/d4rkgh0m/BOOT/assets/120186195/72e36e02-f719-4b13-b4cd-474e5383623c)
 
 ```ruby
 Способ 3. rw init=/sysroot/bin/sh

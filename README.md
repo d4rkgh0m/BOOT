@@ -13,6 +13,7 @@
     Попадаем в окно, где мы можем изменить параметры загрузки:
     
   ![Screenshot from 2024-04-11 16-30-47](https://github.com/d4rkgh0m/BOOT/assets/120186195/28cb41d9-450c-456a-a9c8-337bdfe1ec37) 
-  
+  file:///home/d4rkgh0m/Pictures/Screenshots/Screenshot%20from%202024-04-11%2016-32-44.png
+
 
 

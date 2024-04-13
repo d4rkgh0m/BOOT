@@ -22,7 +22,7 @@
 ![Screenshot from 2024-04-11 16-32-44](https://github.com/d4rkgh0m/BOOT/assets/120186195/bb37ac9e-9dce-437e-bca5-f67bf46bd6df)
 ```ruby
 Если вы хотите перемонтировать ее в режим Read-Write, можно воспользоваться командой:
-[root@otuslinux ~]# mount -o remount,rw /
+[root@localhost ~]# mount -o remount,rw /
 ```
 ![Screenshot from 2024-04-11 16-32-44](https://github.com/d4rkgh0m/BOOT/assets/120186195/246d074b-b97c-4eb9-908d-ce62592dfc96)
 ```ruby
@@ -39,10 +39,10 @@
 загрузки в систему
 - Попадаем в emergency mode. Наша корневая файловая система смонтирована (опять же в режиме Read-Only, но мы не в ней).
 Далее будет пример, как попасть в нее и поменять пароль администратора:
-[root@otuslinux ~]# mount -o remount,rw /sysroot
-[root@otuslinux ~]# chroot /sysroot
-[root@otuslinux ~]# passwd root
-[root@otuslinux ~]# touch /.autorelabel
+[root@localhost ~]# mount -o remount,rw /sysroot
+[root@localhost ~]# chroot /sysroot
+[root@localhost ~]# passwd root
+[root@localhost ~]# touch /.autorelabel
 - После чего можно перезагружаться и заходить в систему с новым паролем.
 Полезно, когда вы потеряли или вообще не имели пароль администратор.
 ```
@@ -58,8 +58,7 @@
 - В целом то же самое, что и в прошлом примере, но файловая система сразу смонтирована в режим Read-Write
 - В прошлых примерах тоже можно заменить ro на rw
 ```
-
-![Screenshot from 2024-04-11 16-30-47](https://github.com/d4rkgh0m/BOOT/assets/120186195/af371e70-4562-4552-b3d2-d2e139ceacf5)
+![Screenshot from 2024-04-11 16-59-44](https://github.com/d4rkgh0m/BOOT/assets/120186195/b2b2097a-f49d-4689-beee-70ab5d226679)
 
 ```ruby
 Установить систему с LVM, после чего переименовать VG

@@ -18,7 +18,7 @@
 - В целом на этом все, Вы попали в систему. Но есть один нюанс. Рутовая файловая
 система при этом монтируется в режиме Read-Only.
 ```
-|| ![Screenshot from 2024-04-11 16-30-47](https://github.com/d4rkgh0m/BOOT/assets/120186195/28cb41d9-450c-456a-a9c8-337bdfe1ec37) ||
+<details>![Screenshot from 2024-04-11 16-30-47](https://github.com/d4rkgh0m/BOOT/assets/120186195/28cb41d9-450c-456a-a9c8-337bdfe1ec37)</details>
 || ![Screenshot from 2024-04-11 16-32-44](https://github.com/d4rkgh0m/BOOT/assets/120186195/bb37ac9e-9dce-437e-bca5-f67bf46bd6df) ||
 ```
 Если вы хотите перемонтировать ее в режим Read-Write, можно воспользоваться командой:
